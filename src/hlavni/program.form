@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hlavni.program">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="10" vgap="10">
+    <constraints>
+      <xy x="20" y="20" width="1328" height="696"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <foreground color="-12828863"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c2d54" binding="prvni" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <foreground color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ecd84" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="79708" binding="druhy" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="df3e7" binding="pole1" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-12828863"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="97956" layout-manager="GridLayoutManager" row-count="13" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <foreground color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1a262" class="javax.swing.JLabel" binding="p1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/cervenyhome.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="cd616" class="javax.swing.JLabel" binding="p2">
+                    <constraints>
+                      <grid row="0" column="1" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4163e" class="javax.swing.JLabel" binding="p3">
+                    <constraints>
+                      <grid row="0" column="2" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="565de" class="javax.swing.JLabel" binding="p4">
+                    <constraints>
+                      <grid row="0" column="3" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="fa186" class="javax.swing.JLabel" binding="p5">
+                    <constraints>
+                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="504ca" class="javax.swing.JLabel" binding="p8">
+                    <constraints>
+                      <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="77b52" class="javax.swing.JLabel" binding="p7">
+                    <constraints>
+                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ce00b" class="javax.swing.JLabel" binding="p6">
+                    <constraints>
+                      <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="69d1e" class="javax.swing.JLabel" binding="p12">
+                    <constraints>
+                      <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="e5d08" class="javax.swing.JLabel" binding="p13">
+                    <constraints>
+                      <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="de95" class="javax.swing.JLabel" binding="p14">
+                    <constraints>
+                      <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="d39a" class="javax.swing.JLabel" binding="p15">
+                    <constraints>
+                      <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="cf603" class="javax.swing.JLabel" binding="p16">
+                    <constraints>
+                      <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="1eaf5" class="javax.swing.JLabel" binding="p17">
+                    <constraints>
+                      <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="9ea7c" class="javax.swing.JLabel" binding="p18">
+                    <constraints>
+                      <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="71f1b" class="javax.swing.JLabel" binding="p11">
+                    <constraints>
+                      <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/zelenyhome.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="3021b" class="javax.swing.JLabel" binding="p10">
+                    <constraints>
+                      <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="8d44c" class="javax.swing.JLabel" binding="p9">
+                    <constraints>
+                      <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="10300" class="javax.swing.JLabel" binding="p19">
+                    <constraints>
+                      <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="8ad86" class="javax.swing.JLabel" binding="p20">
+                    <constraints>
+                      <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="c0ed2" class="javax.swing.JLabel" binding="p21">
+                    <constraints>
+                      <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/modryhome.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ededa" class="javax.swing.JLabel" binding="p22">
+                    <constraints>
+                      <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="3fa13" class="javax.swing.JLabel" binding="p23">
+                    <constraints>
+                      <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="40013" class="javax.swing.JLabel" binding="p24">
+                    <constraints>
+                      <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="93329" class="javax.swing.JLabel" binding="p25">
+                    <constraints>
+                      <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="c825c" class="javax.swing.JLabel" binding="p26">
+                    <constraints>
+                      <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="575a4" class="javax.swing.JLabel" binding="p27">
+                    <constraints>
+                      <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="48baa" class="javax.swing.JLabel" binding="p28">
+                    <constraints>
+                      <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="7cf40" class="javax.swing.JLabel" binding="p29">
+                    <constraints>
+                      <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="cafd2" class="javax.swing.JLabel" binding="p30">
+                    <constraints>
+                      <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="21c7b" class="javax.swing.JLabel" binding="p31">
+                    <constraints>
+                      <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/zlutyhome.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="a2170" class="javax.swing.JLabel" binding="p32">
+                    <constraints>
+                      <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="9be05" class="javax.swing.JLabel" binding="p33">
+                    <constraints>
+                      <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="980b1" class="javax.swing.JLabel" binding="p34">
+                    <constraints>
+                      <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="7d74c" class="javax.swing.JLabel" binding="p35">
+                    <constraints>
+                      <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="dac97" class="javax.swing.JLabel" binding="p36">
+                    <constraints>
+                      <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="36487" class="javax.swing.JLabel" binding="p37">
+                    <constraints>
+                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="700a6" class="javax.swing.JLabel" binding="p38">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="6427b" class="javax.swing.JLabel" binding="p39">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="6a494" class="javax.swing.JLabel" binding="p40">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <icon value="images/prazdnypolicko.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="14254" binding="zeleny" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+                    <minimum-size width="200" height="200"/>
+                    <preferred-size width="200" height="200"/>
+                    <maximum-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="739ee" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+                        <minimum-size width="200" height="200"/>
+                        <preferred-size width="200" height="200"/>
+                        <maximum-size width="200" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="f1f6" layout-manager="CardLayout" hgap="0" vgap="0">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-4473925"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="1a2b5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <card name="Card1"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="eb9d3" class="javax.swing.JLabel" binding="zeleny2">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <icon value="images/zeleny.png"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="2b146" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="ab0e2" class="javax.swing.JLabel" binding="zeleny4">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <icon value="images/zeleny.png"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="87234" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="2d81" class="javax.swing.JLabel" binding="zeleny1">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <icon value="images/zeleny.png"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="e91c1" class="javax.swing.JLabel" binding="zeleny3">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-4473925"/>
+                          <icon value="images/zeleny.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="c6a8d" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="1eba2" binding="zluty" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="true">
+                        <minimum-size width="200" height="200"/>
+                        <preferred-size width="200" height="200"/>
+                        <maximum-size width="200" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="cb9c0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="33446" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+                            <minimum-size width="200" height="200"/>
+                            <preferred-size width="200" height="200"/>
+                            <maximum-size width="200" height="200"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="38013" layout-manager="CardLayout" hgap="0" vgap="0">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-4473925"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <grid id="7bee7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <card name="Card1"/>
+                                </constraints>
+                                <properties>
+                                  <background color="-12828863"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="c21f7" class="javax.swing.JLabel" binding="zluty2">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <icon value="images/zluty.png"/>
+                                      <text value=""/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                          <grid id="387ee" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="ff83f" class="javax.swing.JLabel" binding="zluty4">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <icon value="images/zluty.png"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="451ef" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="42690" class="javax.swing.JLabel" binding="zluty1">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <icon value="images/zluty.png"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <component id="a082a" class="javax.swing.JLabel" binding="zluty3">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-4473925"/>
+                              <icon value="images/zluty.png"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="a59ce" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="d9e9b" binding="modry" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="true">
+                        <minimum-size width="200" height="200"/>
+                        <preferred-size width="200" height="200"/>
+                        <maximum-size width="200" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="4c608" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+                            <minimum-size width="200" height="200"/>
+                            <preferred-size width="200" height="200"/>
+                            <maximum-size width="200" height="200"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="c5a75" layout-manager="CardLayout" hgap="0" vgap="0">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-4473925"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <grid id="1b833" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <card name="Card1"/>
+                                </constraints>
+                                <properties>
+                                  <background color="-12828863"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="f128" class="javax.swing.JLabel" binding="modry2">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <icon value="images/modry.png"/>
+                                      <text value=""/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                          <grid id="b1e12" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="28f29" class="javax.swing.JLabel" binding="modry4">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <icon value="images/modry.png"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="685ed" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="446d6" class="javax.swing.JLabel" binding="modry1">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <icon value="images/modry.png"/>
+                                  <text value=""/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <component id="5beab" class="javax.swing.JLabel" binding="modry3">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-4473925"/>
+                              <icon value="images/modry.png"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <vspacer id="69937">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="43e" binding="cerveny" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+                    <minimum-size width="200" height="200"/>
+                    <preferred-size width="200" height="200"/>
+                    <maximum-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="146ac" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-4473925"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="8394" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <card name="Card1"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12828863"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="f76f2" class="javax.swing.JLabel" binding="cerveny2">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <icon value="images/cerveny.png"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="61c29" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="856c0" class="javax.swing.JLabel" binding="cerveny4">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="images/cerveny.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="7eb01" binding="cervenyp1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-12828863"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="3616" class="javax.swing.JLabel" binding="cerveny1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="images/cerveny.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="9266f" class="javax.swing.JLabel" binding="cerveny3">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-4473925"/>
+                      <icon value="images/cerveny.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f957e" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="40a0" class="javax.swing.JButton" binding="konecButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="konec"/>
+                    </properties>
+                  </component>
+                  <grid id="bca84" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="bbb74" binding="hoditpanel" layout-manager="CardLayout" hgap="0" vgap="0">
+                        <constraints>
+                          <card name="Card3"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="8672f" binding="hoditpanel2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <card name="Card1"/>
+                            </constraints>
+                            <properties>
+                              <background color="-12828863"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="212d6" class="javax.swing.JButton" binding="hoditButton" default-binding="true">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="hodit"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <component id="4aca4" class="javax.swing.JLabel" binding="pkostka">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="images/kostka/1.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
