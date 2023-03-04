@@ -78,8 +78,9 @@ public class program {
     private JLabel modry2;
     private JLabel modry3;
     private JLabel modry4;
+    private JLabel labelhrac;
     public static int hozeno;
-
+    public static int hrajicihrac = -1;
     public program() {
 
         button1.addActionListener(new ActionListener() {
@@ -89,12 +90,53 @@ public class program {
             prvni.setVisible(false);
             druhy.setVisible(true);
 
+            hrajici.hrajici(labelhrac);
         }
     });
 
         hoditButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                hozeno = kostka.randomkostka();
+                if(hozeno == 0){
+                    hozeno = 6;
+                }
+                System.out.println(hozeno);
+                switch(hozeno){
+                    case 6:
+
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/6.png"));
+                    break;
+                    case 1:
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/1.png"));
+                    break;
+                    case 2:
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/2.png"));
+                        break;
+                    case 3:
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/3.png"));
+                        break;
+                    case 4:
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/4.png"));
+                        break;
+                    case 5:
+                        pkostka.setIcon(new ImageIcon("src/images/kostka/5.png"));
+                        break;
+                }
+
+                if(Main.hraci[hrajicihrac].getFigurkyvpoli() == 0){
+                    if(hozeno != 6){
+                        System.out.println("Musí se hodit šestka pro začátek");
+                        hrajici.hrajici(labelhrac);
+                    }else if(hozeno == 6){
+                       spawn.spawn(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
+
+                    }
+                }
+
+
+
 
             }
         });
