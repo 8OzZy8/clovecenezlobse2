@@ -172,7 +172,7 @@ public class spawn {
                 }else {
                     int hracnapolicku = Main.policka[0].getCislohrace();
                     int figurkanapolicku = Main.policka[0].getCislofigurky();
-                    vratitfigurku(hracnapolicku,figurkanapolicku,  cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
+                    vratitfigurku(hracnapolicku,figurkanapolicku, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                     Main.policka[0] = null;
                     spawnout(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                 }

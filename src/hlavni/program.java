@@ -1,5 +1,6 @@
 package hlavni;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -81,6 +82,7 @@ public class program {
     private JLabel labelhrac;
     public static int hozeno;
     public static int hrajicihrac = -1;
+    public static int zvolenafigurka = -1;
     public program() {
 
         button1.addActionListener(new ActionListener() {
@@ -133,8 +135,16 @@ public class program {
                        spawn.spawn(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
 
                     }
-                }else if(Main.hraci[hrajicihrac].getFigurkyvpoli() > 0 && Main.hraci[hrajicihrac].getFigurkyvpoli() < 4){
-                    System.out.println("výběr");
+                }else if(Main.hraci[hrajicihrac].getFigurkyvpoli() > 0 && Main.hraci[hrajicihrac].getFigurkyvpoli() < 5){
+                    if(hozeno == 6 && Main.hraci[hrajicihrac].getFigurkyvpoli() < 4){
+                        System.out.println("Vybrat spawn a posun sj inou");
+                    }else if(Main.hraci[hrajicihrac].getFigurkyvpoli() > 1 && hozeno != 6 || hozeno == 6 && Main.hraci[hrajicihrac].getFigurkyvpoli() == 4) {
+                        System.out.println("vyběr figurky");
+                        vyberfigurky vyberfigurky = new vyberfigurky();
+                        vyberfigurky.pack();
+                        vyberfigurky.setVisible(true);
+                        posun.posun(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
+                    }
 
 
                 }
