@@ -133,6 +133,10 @@ public class program {
                        spawn.spawn(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
 
                     }
+                }else if(Main.hraci[hrajicihrac].getFigurkyvpoli() > 0 && Main.hraci[hrajicihrac].getFigurkyvpoli() < 4){
+                    System.out.println("výběr");
+
+
                 }
 
 

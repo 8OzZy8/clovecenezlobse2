@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a2a4fc6-4d1c-4a32-80e8-42845d671e0b" name="Changes" comment="0.01">
-      <change afterPath="$PROJECT_DIR$/src/hlavni/hrajici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hlavni/spawn.java" afterDir="false" />
+    <list default="true" id="2a2a4fc6-4d1c-4a32-80e8-42845d671e0b" name="Changes" comment="0.02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hlavni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavni/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hlavni/kostka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavni/kostka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hlavni/program.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavni/program.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hlavni/program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavni/program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavni/spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavni/spawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677844125264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.02">
+      <created>1677928694485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677928694485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.00" />
     <MESSAGE value="0.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.01" />
+    <MESSAGE value="0.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.02" />
   </component>
 </project>
