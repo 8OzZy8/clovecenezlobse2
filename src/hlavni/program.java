@@ -82,7 +82,7 @@ public class program {
     private JLabel labelhrac;
     public static int hozeno;
     public static int hrajicihrac = -1;
-    public static int zvolenafigurka = -1;
+    public static int zvolenafigurka;
     public program() {
 
         button1.addActionListener(new ActionListener() {
@@ -99,7 +99,14 @@ public class program {
         hoditButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+         /*       for(int i = 0; i < Main.policka.length; i++){
+                    System.out.println("policko " + i  + "je");
+                    if(Main.policka[i] == null) {
+                        System.out.print("Prazdny");
+                    }else {
+                        System.out.print("plny");
+                    }
+                } */
                 hozeno = kostka.randomkostka();
                 if(hozeno == 0){
                     hozeno = 6;
@@ -144,6 +151,12 @@ public class program {
                         vyberfigurky.pack();
                         vyberfigurky.setVisible(true);
                         posun.posun(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
+                    }else if(Main.hraci[hrajicihrac].getFigurkyvpoli() == 1 && hozeno < 6){
+                        zvolenafigurka = 0;
+
+                        System.out.println("tady");
+                        posun.posun(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
+
                     }
 
 

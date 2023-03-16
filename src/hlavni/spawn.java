@@ -168,6 +168,7 @@ public class spawn {
         switch(program.hrajicihrac){
             case 0:
                 if(Main.policka[0] == null){
+                    System.out.println("prvni prazdny");
                     spawnout(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                 }else {
                     int hracnapolicku = Main.policka[0].getCislohrace();
@@ -179,6 +180,7 @@ public class spawn {
             break;
             case 1:
                 if(Main.policka[10] == null){
+                    System.out.println("11 prazdny");
                     spawnout(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                 }else {
                     int hracnapolicku = Main.policka[10].getCislohrace();
@@ -190,6 +192,7 @@ public class spawn {
                 break;
             case 2:
                 if(Main.policka[20] == null){
+                    System.out.println("21 prazdny");
                     spawnout(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                 }else {
                     int hracnapolicku = Main.policka[20].getCislohrace();
@@ -201,6 +204,7 @@ public class spawn {
                 break;
             case 3:
                 if(Main.policka[30] == null){
+                    System.out.println("31 prazdny");
                     spawnout(p1, p11, p21, p31, cerveny1, cerveny2, cerveny3, cerveny4, zeleny1, zeleny2, zeleny3, zeleny4, modry1, modry2, modry3, modry4, zluty1, zluty2, zluty3, zluty4);
                 }else {
                     int hracnapolicku = Main.policka[30].getCislohrace();
